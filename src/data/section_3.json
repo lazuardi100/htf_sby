@@ -1,0 +1,17 @@
+{
+  "support":[
+    {
+      "img": "/img/support/jagoan_hosting.png",
+      "title": "Jagoan Hosting",
+      "description": "Taklukan Dunia Maya dengan infrastruktur digitalisasi terbaik dikelasnya & Partner Bersertifikasi Kelas Dunia yang Siap Mendukungmu Sepenuh Tenaga!",
+      "link": "https://www.jagoanhosting.com/"
+    }
+  ],
+  "contributor":[
+    {
+      "img": "/img/contributor/sbydev.png",
+      "title": "Surabaya Dev",
+      "link": "https://surabayadev.org/"
+    }
+  ]
+}
