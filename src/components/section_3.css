@@ -1,0 +1,17 @@
+.separator {
+  position: relative;
+  height: 6.375rem;
+  transform: rotateY(180deg);
+}
+
+.separator:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -40px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 6.375rem 100vw;
+  border-color: transparent transparent #ffffff transparent;
+}
