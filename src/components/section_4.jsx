@@ -3,7 +3,8 @@ import './section_4.css';
 
 export default function Section3(){
   return <div className="section_4 bg-white">
-    <div className="px-32 py-36 h-276">
+      <div className="px-0 py-36 h-276 lg:ml-32">
+
 
       {/* card container */}
       <div className="flex md:flex-row md:justify-center flex-col flex-wrap w-full md:mt-8 mt-2">
@@ -22,7 +23,7 @@ export default function Section3(){
                   </p>
                 </div>
 
-                <div class="flex items-center justify-center md:justify-end col-span-12 md:col-span-4">
+                <div class="flex items-center justify-center custom-pr-120 md:justify-end col-span-12 md:col-span-4">
                   <button class="w-48 h-48 rounded-full bg-black hover:bg-gray-500 text-white text-base">
                     Join Us
                   </button>
