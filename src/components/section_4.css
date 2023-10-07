@@ -16,7 +16,26 @@
   border-color: transparent transparent #ffffff transparent;
 }
 
+.custom-pr-120 {
+  padding-right: 120px;
+}
 
 .headCTA {
   font-size: 4.375rem;
+}
+
+/* For Tablets */
+@media (max-width: 991.98px) {
+  .headCTA {
+    font-size: 3.75rem;
+    /* Adjust as needed for tablets */
+  }
+}
+
+/* For Android Screens */
+@media only screen and (max-device-width: 480px) {
+  .headCTA {
+    font-size: 3.125rem;
+    /* Adjust as needed for Android screens */
+  }
 }
