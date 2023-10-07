@@ -2,7 +2,6 @@ import data from '../data/section_2.json';
 import './section_2.css';
 
 export default function Section2() {
-  console.log(data);
   return (
     <div className="bg-neutral-50 section_2">
 

@@ -13,22 +13,22 @@ export default function Section3(){
           return(<>
             <div className="flex flex-col md:flex-row items-center justify-center bg-white md:w-[100%] w-4/5 p-4 md:mx-4 mx-auto md:mt-0 mt-8 rounded md:h-72">
               
-<div class="flex flex-col md:flex-row w-full grid grid-cols-12 gap-4 justify-between">
-  <div class="col-span-12 md:col-span-8 p-4">
-    <b><h1 className="text-black headCTA mb-10">
-      {item.head}
-    </h1></b>
-    <p className="text-black">
-      {item.desc}
-    </p>
-  </div>
+          <div class="flex flex-col md:flex-row w-full grid grid-cols-12 gap-4 justify-between">
+            <div class="col-span-12 md:col-span-8 p-4">
+              <b><h1 className="text-black headCTA mb-10">
+                {item.head}
+              </h1></b>
+              <p className="text-black">
+                {item.desc}
+              </p>
+            </div>
 
-  <div class="flex items-center justify-center md:justify-end col-span-12 md:col-span-4">
-    <button class="w-48 h-48 rounded-full bg-black hover:bg-gray-500 text-white text-base">
-      Join Us
-    </button>
-  </div>
-</div>
+            <div class="flex items-center justify-center md:justify-end col-span-12 md:col-span-4">
+              <button class="w-48 h-48 rounded-full bg-black hover:bg-gray-500 text-white text-base">
+                Join Us
+              </button>
+            </div>
+          </div>
             </div>
           </>
           )
