@@ -2,7 +2,6 @@ import data from '../data/section_3.json'
 import './section_3.css';
 
 export default function Section3(){
-  console.log(data);
   return <div className="bg-zinc-950 section_3 dot-bg">
     <div className="px-10 pt-4">
       
