@@ -9,19 +9,23 @@
   "contributor":[
     {
       "desc" : "learn and practice skills that will enhance their careers",
-      "img" : "/img/about/share 1.png"
+      "img" : "/img/about/share 1.png",
+      "title" : "Sharing"
     },
     {
       "desc" : "learn and practice skills that will enhance their careers",
-      "img" : "/img/about/share 1.png"
+      "img" : "/img/about/social-media 1.png",
+      "title" : "Collaboration"
     },
     {
       "desc" : "learn and practice skills that will enhance their careers",
-      "img" : "/img/about/share 1.png"
+      "img" : "/img/about/idea 1.png",
+      "title" : "New Oppurtunity"
     },
     {
       "desc" : "learn and practice skills that will enhance their careers",
-      "img" : "/img/about/share 1.png " 
+      "img" : "/img/about/rocket 1.png " ,
+      "title" : "Upgrade"
     }
   ]
   

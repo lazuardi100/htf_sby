@@ -40,7 +40,7 @@ export default function Section2() {
               <div className='bg-white p-4 rounded mx-auto'>
                 <div className="flex">
                   <img src={item.img} alt="placeholder" />
-                  <h2 className="ml-2 font-bold text-base">Sharing</h2>
+                  <h2 className="ml-2 font-bold text-base">{item.title}</h2>
                 </div>
                 <div className="flex mb-5"></div>
                 <h1 className="text-black mb-5">{item.desc}</h1>
