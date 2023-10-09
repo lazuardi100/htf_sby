@@ -1,6 +1,6 @@
 .fade-left {
     position: relative;
-    animation: fadeleft 1.6s;
+    animation: fadeleft 750ms;
 }
 
 @keyframes fadeleft {
@@ -16,7 +16,7 @@
 
 .fade-right {
     position: relative;
-    animation: faderight 1.6s;
+    animation: faderight 1s;
 }
 
 @keyframes faderight {
@@ -32,7 +32,7 @@
 
 .fade-down {
     position: relative;
-    animation: fadedown 1.6s;
+    animation: fadedown 1s;
 }
 
 .typewriter {
