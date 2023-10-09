@@ -2,12 +2,13 @@ import "./section_1.css";
 export default function Section1() {
   return (
     <div className="bg-zinc-950 section dot-bg">
-      <div className="px-10 pt-4">
-        <div className="flex justify-center py-12">
+      <div className="pt-4">
+        <div className="flex justify-center px-10 md:py-12">
           <div className="w-11/12">
-            <div className="typewriter">
-              <p className="text-white lg:text-[4rem] md:text-[3rem] text-[2rem]">
-                Surabaya Tech Community's{" "}
+            <div className="fade-down">
+              <p className="text-white lg:text-[3.8rem] md:text-[3rem] sm:text-[2rem] text-[1.8rem]">
+                <span className="underline underline-offset-8">Surabaya</span>{" "}
+                Tech Community's{" "}
                 <span className="underline underline-offset-8">
                   HactoberFest
                 </span>{" "}
@@ -17,14 +18,14 @@ export default function Section1() {
                 </span>
               </p>
             </div>
-            <div className="flex md:gap-10 gap-6 mt-10">
+            <div className="flex md:gap-10 gap-4 mt-10">
               <a
                 href="/"
-                className="flex justify-center items-center bg-white lg:px-[40px] lg:py-[15px] px-[20px] py-[10px] rounded-[4px] transition-all duration-300 ease-in-out hover:bg-transparent hover:border hover:border-white hover:text-white whitespace-nowrap"
+                className="flex justify-center items-center bg-white lg:px-[40px] lg:py-[15px] px-[20px] py-[10px] rounded-[4px] transition-all duration-300 ease-in-out hover:bg-transparent hover:border hover:border-white hover:text-white whitespace-nowrap md:text-[20px] text-[11px] fade-left"
               >
                 Let's Join
               </a>
-              <div className="relative flex justify-center md:px-[40px] md:py-[15px] px-[20px]">
+              <div className="relative flex justify-center md:px-[40px] md:py-[15px] px-[20px] fade-right">
                 <svg
                   width="100%"
                   height="15"
@@ -52,7 +53,7 @@ export default function Section1() {
                 </svg>
                 <a
                   href="/"
-                  className="flex justify-center items-center text-white md:text-[20px] whitespace-nowrap"
+                  className="flex justify-center items-center text-white md:text-[20px] text-[11px] whitespace-nowrap"
                 >
                   What is Hacktoberfest
                 </a>
