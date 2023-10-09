@@ -21,7 +21,7 @@ export default function Section1() {
             <div className="flex md:gap-10 gap-4 mt-10">
               <a
                 href="/"
-                className="flex justify-center items-center bg-white lg:px-[40px] lg:py-[15px] px-[20px] py-[10px] rounded-[4px] transition-all duration-300 ease-in-out hover:bg-transparent hover:border hover:border-white hover:text-white whitespace-nowrap md:text-[20px] text-[11px] fade-left"
+                className="flex justify-center items-center border bg-white lg:px-[40px] lg:py-[15px] px-[20px] py-[10px] rounded-[4px] transition-all duration-300 ease-in-out hover:bg-transparent hover:border-white hover:text-white whitespace-nowrap md:text-[20px] text-[11px] fade-left"
               >
                 Let's Join
               </a>
@@ -52,8 +52,9 @@ export default function Section1() {
                   <line x1="281.5" y1="15" x2="281.5" stroke="white" />
                 </svg>
                 <a
-                  href="/"
-                  className="flex justify-center items-center text-white md:text-[20px] text-[11px] whitespace-nowrap"
+                  href="https://hacktoberfest.com/about/"
+                  className="flex justify-center items-center text-white md:text-[20px] text-[11px] whitespace-nowrap transition-all duration-300 ease-in-out"
+                  target="blank"
                 >
                   What is Hacktoberfest
                 </a>
