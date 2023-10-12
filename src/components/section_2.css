@@ -16,3 +16,21 @@
   border-color: transparent transparent #000000 transparent;
   
 }
+
+.resized-image {
+  width: 30px; /* You can set the width to a specific value or percentage */
+  height: auto; /* This ensures that the aspect ratio is maintained */
+}
+
+.custom-rounded-container {
+  border-radius: 50px; /* Adjust the value as needed */
+  overflow: hidden; /* Ensure rounded corners are visible */
+}
+
+.goals{
+  @apply md:w-1/4 w-full md:px-1.5 mb-4;
+}
+
+.event{
+  @apply md:w-full px-1.5 w-full mb-4;
+}
