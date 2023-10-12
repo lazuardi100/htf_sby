@@ -1,84 +1,82 @@
-.fade-left {
-    position: relative;
-    animation: fadeleft 750ms;
+/* .fade-left {
+  position: relative;
+  animation: fadeleft 750ms;
 }
 
 @keyframes fadeleft {
-    from {
-        transform: translateX(750px);
-        opacity: 0;
-    }
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
+  from {
+    transform: translateX(750px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 .fade-right {
-    position: relative;
-    animation: faderight 1s;
+  position: relative;
+  animation: faderight 1s;
 }
 
 @keyframes faderight {
-    from {
-        transform: translateX(-1000px);
-        opacity: 0;
-    }
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
+  from {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 .fade-down {
-    position: relative;
-    animation: fadedown 1s;
+  position: relative;
+  animation: fadedown 1s;
 }
 
 .typewriter {
-    overflow: hidden;
-    /* white-space: nowrap; */
-    animation: typewriter 2s steps(40, end) 0.5s forwards;
-    animation-delay: 1.6s;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter 2s steps(40, end) 0.5s forwards;
+  animation-delay: 1.6s;
 }
 
 @keyframes fadedown {
-    from {
-        transform: translateY(-500px);
-        opacity: 0;
-    }
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
-
+  from {
+    transform: translateY(-500px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+} */
 
 /* Keyframes untuk animasi typewriter */
 
-@keyframes typewriter {
-    from {
-        width: 0;
-    }
-    to {
-        width: 100%;
-    }
-}
+/* @keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+} */
 
 .separator-1 {
-    position: relative;
-    height: 6.375rem;
+  position: relative;
+  height: 6.375rem;
 }
 
 .separator-1:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 0 6.375rem 100vw;
-    border-color: transparent transparent #fafafa transparent;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 6.375rem 100vw;
+  border-color: transparent transparent #fafafa transparent;
 }
-
