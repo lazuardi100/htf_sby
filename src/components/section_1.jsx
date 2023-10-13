@@ -1,9 +1,46 @@
-import "./section_1.css";
-
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Typed from "typed.js";
+import "./section_1.css";
+import { useEffect } from "react";
 export default function Section1() {
-  AOS.init();
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+
+    const firstText = {
+      strings: ["Surabaya"],
+      typeSpeed: 100,
+      showCursor: false,
+      startDelay: 1100,
+    };
+
+    const secondText = {
+      strings: ["HacktoberFest"],
+      typeSpeed: 100,
+      showCursor: false,
+      startDelay: 1100,
+    };
+
+    const thirdText = {
+      strings: ["Code and Collaboration"],
+      typeSpeed: 100,
+      showCursor: false,
+      startDelay: 1100,
+    };
+
+    const typedFirst = new Typed(".typewriter1", firstText);
+    const typedSecond = new Typed(".typewriter2", secondText);
+    const typedThird = new Typed(".typewriter3", thirdText);
+
+    return () => {
+      typedFirst.destroy();
+      typedSecond.destroy();
+      typedThird.destroy();
+    };
+  }, []);
+
+  useEffect(() => {});
   return (
     <div className="bg-zinc-950 section dot-bg">
       <div className="pt-4">
@@ -17,15 +54,11 @@ export default function Section1() {
               data-aos-delay={500}
             >
               <p className="text-white lg:text-[3.8rem] md:text-[3rem] text-[2.2rem]">
-                <span className="underline underline-offset-8">Surabaya</span>{" "}
+                <span className="underline underline-offset-8 typewriter1"></span>{" "}
                 Tech Community's{" "}
-                <span className="underline underline-offset-8">
-                  HactoberFest
-                </span>{" "}
+                <span className="underline underline-offset-8 typewriter2"></span>{" "}
                 2023: A Celebration of{" "}
-                <span className="underline underline-offset-8">
-                  Code and Collaboration
-                </span>
+                <span className="underline underline-offset-8 typewriter3"></span>
               </p>
             </div>
             <div className="flex md:gap-10 gap-4 mt-10">
