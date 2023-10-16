@@ -21,5 +21,15 @@
 }
 
 .contributor_item{
-  @apply lg:w-1/5 md:w-[30%] w-full px-1.5 flex flex-col justify-center mt-3 h-16;
+  @apply md:w-fit max-w-[200px] mr-8 flex flex-col justify-center mt-3 h-[4.9rem] bg-white rounded;
+}
+/* marques */
+.marquee {
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+}
+
+.marquee-item {
+  width: 100%;
 }

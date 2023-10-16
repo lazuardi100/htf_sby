@@ -8,16 +8,16 @@ body {
     font-family: 'JetBrains Mono', monospace;
   }
   
-  .dot-bg{
-    --dot-bg: black;
-    --dot-color: white;
-    --dot-size: 1px;
-    --dot-space: 22px;
-      background:
-          linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
-          linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
-          var(--dot-color);
-  }
+.dot-bg{
+  --dot-bg: black;
+  --dot-color: #72ACA2;
+  --dot-size: 1px;
+  --dot-space: 35px;
+    background:
+        linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+        linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+        var(--dot-color);
+}
 
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;1,300&display=swap');
 
