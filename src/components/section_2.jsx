@@ -68,13 +68,16 @@ export default function Section2() {
                 data-aos-delay={index * 250}
               >
                 <div className='bg-white p-4 rounded mx-3'>
-                  <div className="flex">
-                    <img src={item.img} className="resized-image" alt="placeholder" />
-                    <h2 className="ml-2 font-bold text-base">{item.title}</h2>
-                  </div>
-                  <div className="flex mb-5"></div>
-                  <h1 className="text-black text-xs mb-5">{item.desc}</h1>
-                </div>
+  <div className="flex">
+    <img src={item.img} className="resized-image" alt="placeholder" />
+    <h2 className="ml-2 font-bold text-base">{item.title}</h2>
+  </div>
+  <div className="flex mb-3"></div>
+  <div className="text-black text-xs mb-3" style={{ minHeight: '4em', overflow: 'hidden' }}>
+    {item.desc}
+  </div>
+</div>
+
               </div>
             );
           })}
