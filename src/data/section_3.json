@@ -3,7 +3,16 @@
     {
       "img": "/img/support/jagoan_hosting.png",
       "title": "Jagoan Hosting",
-      "description": "Taklukan Dunia Maya dengan infrastruktur digitalisasi terbaik dikelasnya & Partner Bersertifikasi Kelas Dunia yang Siap Mendukungmu Sepenuh Tenaga!",
+      "link": "https://www.jagoanhosting.com/"
+    },
+    {
+      "img": "/img/support/hactiv8.png",
+      "title": "Hactiv8",
+      "link": "https://www.jagoanhosting.com/"
+    },
+    {
+      "img": "/img/support/sistekin.png",
+      "title": "Untag",
       "link": "https://www.jagoanhosting.com/"
     }
   ],
@@ -12,6 +21,46 @@
       "img": "/img/contributor/sbydev.png",
       "title": "Surabaya Dev",
       "link": "https://surabayadev.org/"
+    },
+    {
+      "img": "/img/contributor/lamongandev.png",
+      "title": "Lamongan Dev",
+      "link": "#"
+    },
+    {
+      "img": "/img/contributor/surabayapy.png",
+      "title": "Surabaya Py",
+      "link": "#"
+    },
+    {
+      "img": "/img/contributor/DSI.png",
+      "title": "Data Science Indonesia",
+      "link": "#"
+    },
+    {
+      "img": "/img/contributor/SHL-Black.png",
+      "title": "Surabaya Hacker Link",
+      "link": "#"
+    },
+    {
+      "img": "/img/contributor/surabayajs.png",
+      "title": "Surabaya JS",
+      "link": "#"
+    },
+    {
+      "img": "/img/contributor/bangkalandev.png",
+      "title": "Bangkalan Dev",
+      "link": "#"
+    },
+    {
+      "img": "/img/contributor/suwec.png",
+      "title": "Suwec",
+      "link": "#"
+    },
+    {
+      "img": "/img/contributor/klas.png",
+      "title": "Klas",
+      "link": "#"
     }
   ]
 }
