@@ -11,7 +11,7 @@ body {
 .dot-bg{
   --dot-bg: black;
   --dot-color: #72ACA2;
-  --dot-size: 1px;
+  --dot-size: 0.11rem;
   --dot-space: 35px;
     background:
         linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),

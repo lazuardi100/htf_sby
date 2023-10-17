@@ -3,7 +3,16 @@
     {
       "img": "/img/support/jagoan_hosting.png",
       "title": "Jagoan Hosting",
-      "description": "Taklukan Dunia Maya dengan infrastruktur digitalisasi terbaik dikelasnya & Partner Bersertifikasi Kelas Dunia yang Siap Mendukungmu Sepenuh Tenaga!",
+      "link": "https://www.jagoanhosting.com/"
+    },
+    {
+      "img": "/img/support/hactiv8.png",
+      "title": "Hactiv8",
+      "link": "https://www.jagoanhosting.com/"
+    },
+    {
+      "img": "/img/support/sistekin.png",
+      "title": "Untag",
       "link": "https://www.jagoanhosting.com/"
     }
   ],
