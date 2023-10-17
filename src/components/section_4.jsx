@@ -61,14 +61,14 @@ export default function Section4(){
                                     <>
                                       <circle cx="50" cy="50" r="45" fill="#ffffff" stroke="#000000" strokeWidth="1" />
                                       <text x="50%" y="50%" text-anchor="middle" font-size="0.5rem" dy=".3em" fill="#000000">
-                                        Register here
+                                        Join Now
                                       </text>
                                     </>
                                   ) : (
                                     <>
                                       <circle cx="50" cy="50" r="45" fill="#000000" />
                                       <text x="50%" y="50%" text-anchor="middle"font-size="0.5rem" dy=".3em" fill="#ffffff">
-                                        Join Now
+                                        Register here
                                       </text>
                                     </>
                                   )}
