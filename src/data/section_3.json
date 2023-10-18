@@ -3,8 +3,17 @@
     {
       "img": "/img/support/jagoan_hosting.png",
       "title": "Jagoan Hosting",
-      "description": "Taklukan Dunia Maya dengan infrastruktur digitalisasi terbaik dikelasnya & Partner Bersertifikasi Kelas Dunia yang Siap Mendukungmu Sepenuh Tenaga!",
       "link": "https://www.jagoanhosting.com/"
+    },
+    {
+      "img": "/img/support/hactiv8.png",
+      "title": "Hactiv8",
+      "link": "https://www.hacktiv8.com/"
+    },
+    {
+      "img": "/img/support/sistekin.png",
+      "title": "Sistekin Untag",
+      "link": "https://sistekin.untag-sby.ac.id/"
     }
   ],
   "contributor":[
@@ -12,6 +21,51 @@
       "img": "/img/contributor/sbydev.png",
       "title": "Surabaya Dev",
       "link": "https://surabayadev.org/"
+    },
+    {
+      "img": "/img/contributor/lamongandev.png",
+      "title": "Lamongan Dev",
+      "link": "https://www.lamongandev.com/"
+    },
+    {
+      "img": "/img/contributor/surabayapy.png",
+      "title": "Surabaya Py",
+      "link": "https://surabayapy.github.io/"
+    },
+    {
+      "img": "/img/contributor/DSI.png",
+      "title": "Data Science Indonesia",
+      "link": "https://datascience.or.id/"
+    },
+    {
+      "img": "/img/contributor/SHL-Black.png",
+      "title": "Surabaya Hacker Link",
+      "link": "https://surabayahackerlink.org/"
+    },
+    {
+      "img": "/img/contributor/surabayajs.png",
+      "title": "Surabaya JS",
+      "link": "https://surabayajs.org/"
+    },
+    {
+      "img": "/img/contributor/bangkalandev.png",
+      "title": "Bangkalan Dev",
+      "link": "https://www.linkedin.com/company/bangkalan-developer/"
+    },
+    {
+      "img": "/img/contributor/suwec.png",
+      "title": "Suwec",
+      "link": "https://www.instagram.com/suwecsby/"
+    },
+    {
+      "img": "/img/contributor/klas.png",
+      "title": "Klas",
+      "link": "https://klas.or.id/"
+    },
+    {
+      "img": "/img/contributor/GDG-Surabaya.png",
+      "title": "GDG Surabaya",
+      "link": "https://gdg.community.dev/gdg-surabaya/"
     }
   ]
 }

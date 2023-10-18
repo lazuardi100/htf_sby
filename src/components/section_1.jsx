@@ -1,30 +1,85 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Typed from "typed.js";
 import "./section_1.css";
+import { useEffect } from "react";
 export default function Section1() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+
+    const firstText = {
+      strings: ["Surabaya"],
+      typeSpeed: 100,
+      showCursor: false,
+      startDelay: 1100,
+    };
+
+    const secondText = {
+      strings: ["HacktoberFest"],
+      typeSpeed: 100,
+      showCursor: false,
+      startDelay: 1100,
+    };
+
+    const thirdText = {
+      strings: ["Code and Collaboration"],
+      typeSpeed: 100,
+      showCursor: false,
+      startDelay: 1100,
+    };
+
+    const typedFirst = new Typed(".typewriter1", firstText);
+    const typedSecond = new Typed(".typewriter2", secondText);
+    const typedThird = new Typed(".typewriter3", thirdText);
+
+    return () => {
+      typedFirst.destroy();
+      typedSecond.destroy();
+      typedThird.destroy();
+    };
+  }, []);
+
+  useEffect(() => {});
   return (
     <div className="bg-zinc-950 section dot-bg">
-      <div className="px-10 pt-4">
-        <div className="flex justify-center py-12">
+      <div className="pt-4">
+        <div className="flex justify-center px-7 md:py-12 pt-[60px]">
           <div className="w-11/12">
-            <div className="typewriter">
-              <p className="text-white lg:text-[4rem] md:text-[3rem] text-[2rem]">
-                Surabaya Tech Community's{" "}
-                <span className="underline underline-offset-8">
-                  HactoberFest
-                </span>{" "}
+            <div
+              className="fade-down"
+              data-aos="fade-down"
+              data-aos-duration="500"
+              data-aos-once="true"
+              data-aos-delay={500}
+            >
+              <p className="text-white font-bold lg:text-[3.8rem] md:text-[3rem] text-[32px]">
+                <span className="underline underline-offset-8 typewriter1"></span>{" "}
+                Tech Community's{" "}
+                <span className="underline underline-offset-8 typewriter2"></span>{" "}
                 2023: A Celebration of{" "}
-                <span className="underline underline-offset-8">
-                  Code and Collaboration
-                </span>
+                <span className="underline underline-offset-8 typewriter3"></span>
               </p>
             </div>
-            <div className="flex md:gap-10 gap-6 mt-10">
+            <div className="flex md:gap-10 gap-4 mt-10">
               <a
                 href="/"
-                className="flex justify-center items-center bg-white lg:px-[40px] lg:py-[15px] px-[20px] py-[10px] rounded-[4px] transition-all duration-300 ease-in-out hover:bg-transparent hover:border hover:border-white hover:text-white whitespace-nowrap"
+                data-aos="fade-left"
+                data-aos-duration="500"
+                data-aos-once="true"
+                data-aos-delay={750}
               >
-                Let's Join
+                <span className="flex justify-center items-center border bg-white lg:px-[40px] lg:py-[15px] px-[20px] py-[10px] rounded-[4px] transition duration-300 ease-in-out hover:bg-transparent hover:border-white hover:text-white whitespace-nowrap md:text-[20px] text-[11px] font-semibold">
+                  Let's Join
+                </span>
               </a>
-              <div className="relative flex justify-center md:px-[40px] md:py-[15px] px-[20px]">
+              <div
+                data-aos="fade-right"
+                data-aos-duration="500"
+                data-aos-once="true"
+                data-aos-delay={1000}
+                className="relative flex justify-center md:px-[40px] px-[20px] fade-right"
+              >
                 <svg
                   width="100%"
                   height="15"
@@ -51,10 +106,13 @@ export default function Section1() {
                   <line x1="281.5" y1="15" x2="281.5" stroke="white" />
                 </svg>
                 <a
-                  href="/"
-                  className="flex justify-center items-center text-white md:text-[20px] whitespace-nowrap"
+                  href="https://hacktoberfest.com/about/"
+                  className="flex justify-center items-center text-white md:text-[20px] text-[11px] whitespace-nowrap  font-medium"
+                  target="blank"
                 >
-                  What is Hacktoberfest
+                  <span className="border-b-2 border-transparent transition duration-500 hover:border-[gray]">
+                    What is Hacktoberfest
+                  </span>
                 </a>
                 <svg
                   width="100%"
