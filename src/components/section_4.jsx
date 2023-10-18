@@ -1,42 +1,93 @@
 import data from '../data/section_4.json'
 import './section_4.css';
 
-export default function Section3(){
-  return <div className="section_4 bg-white">
-      <div className="px-0 py-36 h-276 lg:ml-32">
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import React, { useState } from 'react';
 
+export default function Section4(){
+  AOS.init();
+  const [isHovered, setIsHovered] = useState(false);
 
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
+
+  
+  return (
+    <div className="section_4 bg-white px-4 md:px-0 py-16 md:py-36 border-t border-white">
       {/* card container */}
-      <div className="flex md:flex-row md:justify-center flex-col flex-wrap w-full md:mt-8 mt-2">
+      <div className="flex md:flex-row flex-col w-full md:mt-8 mt-2">
         {/* create white card with image in the left and in the right there is card title and body */}
-        {data.calltoaction.map((item, index) => {
-          return(<>
-            <div className="flex flex-col md:flex-row items-center justify-center bg-white md:w-[100%] w-4/5 p-4 md:mx-4 mx-auto md:mt-0 mt-8 rounded md:h-72">
-              
-              <div class="flex flex-col md:flex-row w-full grid grid-cols-12 gap-4 justify-between">
-                <div class="col-span-12 md:col-span-8 p-4">
-                  <b><h1 className="text-black headCTA mb-10">
-                    {item.head}
-                  </h1></b>
-                  <p className="text-black">
-                    {item.desc}
-                  </p>
+        {data.calltoaction.map((item, index) => (
+
+          
+          <div
+            key={index}
+            className="div-head flex flex-col md:flex-row items-center justify-center bg-white w-full md:w-[80%] mx-auto md:mt-0 mt-8 rounded md:h-72"
+          >
+                <div className="w-full md:w-8/12 p-4 m-0"
+                data-aos="fade-left"
+                data-aos-duration="500"
+                data-aos-once="false"
+                data-aos-offset="0" 
+                data-aos-delay={index * 250}>
+                    <h1 className="text-black headCTA mb-6 lg:mb-10 text-left">
+                      <b>{item.head}</b>
+                    </h1>
+                    <p className="text-black text-left">{item.desc}</p>
                 </div>
 
-                <div class="flex items-center justify-center custom-pr-120 md:justify-end col-span-12 md:col-span-4">
-                  <button class="w-48 h-48 rounded-full bg-black hover:bg-gray-500 text-white text-base">
-                    Join Us
-                  </button>
+                <div className="flex items-center lg:justify-end justify-center w-full md:w-4/12 custom-margin-top-inherit"
+                data-aos="fade-right"
+                data-aos-duration="750"
+                data-aos-once="false"
+                >
+                      <button
+                                className="custom-button p-0 border-none bg-none" // Apply the className here
+                                onMouseEnter={handleMouseEnter}
+                                onMouseLeave={handleMouseLeave}
+                              >
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  class="w-48 h-48 rounded-full cursor-pointer button-join"
+                                  viewBox="0 0 100 100"
+                                >
+                                  {isHovered ? (
+                                    <>
+                                      <circle cx="50" cy="50" r="45" fill="#ffffff" stroke="#000000" strokeWidth="1" />
+                                      <text x="50%" y="50%" text-anchor="middle" font-size="0.5rem" dy=".3em" fill="#000000">
+                                        Join Now
+                                      </text>
+                                    </>
+                                  ) : (
+                                    <>
+                                      <circle cx="50" cy="50" r="45" fill="#000000" />
+                                      <text x="50%" y="50%" text-anchor="middle"font-size="0.5rem" dy=".3em" fill="#ffffff">
+                                        Register here
+                                      </text>
+                                    </>
+                                  )}
+                                </svg>
+                              </button>
+
                 </div>
-              </div>
-            </div>
-          </>
-          )
-        })}
+
+
+
+            
+          </div>
+
+
+        ))}
         {/* end of card */}
       </div>
       {/* end card container */}
-
     </div>
-  </div>
+  );
 }
+
