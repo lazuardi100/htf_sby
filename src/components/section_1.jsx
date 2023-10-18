@@ -44,7 +44,7 @@ export default function Section1() {
   return (
     <div className="bg-zinc-950 section dot-bg">
       <div className="pt-4">
-        <div className="flex justify-center px-10 md:py-12">
+        <div className="flex justify-center px-7 md:py-12 pt-[60px]">
           <div className="w-11/12">
             <div
               className="fade-down"
@@ -53,7 +53,7 @@ export default function Section1() {
               data-aos-once="true"
               data-aos-delay={500}
             >
-              <p className="text-white lg:text-[3.8rem] md:text-[3rem] text-[2.2rem]">
+              <p className="text-white font-bold lg:text-[3.8rem] md:text-[3rem] text-[32px]">
                 <span className="underline underline-offset-8 typewriter1"></span>{" "}
                 Tech Community's{" "}
                 <span className="underline underline-offset-8 typewriter2"></span>{" "}
@@ -68,16 +68,17 @@ export default function Section1() {
                 data-aos-duration="500"
                 data-aos-once="true"
                 data-aos-delay={750}
-                className="flex justify-center items-center border bg-white lg:px-[40px] lg:py-[15px] px-[20px] py-[10px] rounded-[4px] transition-all duration-300 ease-in-out hover:bg-transparent hover:border-white hover:text-white whitespace-nowrap md:text-[20px] text-[11px] fade-left"
               >
-                Let's Join
+                <span className="flex justify-center items-center border bg-white lg:px-[40px] lg:py-[15px] px-[20px] py-[10px] rounded-[4px] transition duration-300 ease-in-out hover:bg-transparent hover:border-white hover:text-white whitespace-nowrap md:text-[20px] text-[11px] font-semibold">
+                  Let's Join
+                </span>
               </a>
               <div
                 data-aos="fade-right"
                 data-aos-duration="500"
                 data-aos-once="true"
                 data-aos-delay={1000}
-                className="relative flex justify-center md:px-[40px] md:py-[15px] px-[20px] fade-right"
+                className="relative flex justify-center md:px-[40px] px-[20px] fade-right"
               >
                 <svg
                   width="100%"
@@ -106,10 +107,12 @@ export default function Section1() {
                 </svg>
                 <a
                   href="https://hacktoberfest.com/about/"
-                  className="flex justify-center items-center text-white md:text-[20px] text-[11px] whitespace-nowrap transition-all duration-300 ease-in-out"
+                  className="flex justify-center items-center text-white md:text-[20px] text-[11px] whitespace-nowrap  font-medium"
                   target="blank"
                 >
-                  What is Hacktoberfest
+                  <span className="border-b-2 border-transparent transition duration-500 hover:border-[gray]">
+                    What is Hacktoberfest
+                  </span>
                 </a>
                 <svg
                   width="100%"
