@@ -27,15 +27,15 @@
 /* For Tablets */
 @media (max-width: 991.98px) {
   .headCTA {
-    font-size: 3.75rem;
+    font-size: 2.5rem;
     /* Adjust as needed for tablets */
   }
 }
 
 /* For Android Screens */
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   .headCTA {
-    font-size: 3.125rem;
+    font-size: 1rem;
     /* Adjust as needed for Android screens */
   }
 }

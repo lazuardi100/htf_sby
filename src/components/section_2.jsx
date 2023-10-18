@@ -19,7 +19,7 @@ export default function Section2() {
         </div>
 
         {/* card container */}
-        <div className="flex  md:flex-row md:justify-center flex-col flex-wrap w-full md-6 mb-6 mt-8">
+        <div className="flex flex-col md:flex-row md:justify-center flex-wrap w-full md-6 mb-6 mt-8">
           {/* create white card with image on the left and card title and body on the right */}
           {data.about.map((item, index) => {
             let fadeMode = 'fade-up';
@@ -29,7 +29,7 @@ export default function Section2() {
             return (
               <div
                 key={index}
-                className="event md:w-full  px-1.5 w-full mb-4"
+                className="event md:w-1/2 px-1.5 w-full mb-4"  // Adjust width for tablet screens
                 data-aos={fadeMode}
                 data-aos-duration="500"
                 data-aos-once="true"
@@ -44,7 +44,7 @@ export default function Section2() {
         </div>
         {/* end card container */}
 
-              <hr className="w-full border-t-2 border-gray-300" />
+        <hr className="w-full border-t-2 border-gray-300" />
 
         <div className='rounded-s mx-auto flex items-center justify-center'>
           <h1 className="bg-[#F6F6F6] inline-block p-2 rounded text-[#555555] mt-8 ">
@@ -73,7 +73,7 @@ export default function Section2() {
     <h2 className="ml-2 font-bold text-base">{item.title}</h2>
   </div>
   <div className="flex mb-3"></div>
-  <div className="text-black text-xs mb-3" style={{ minHeight: '4em', overflow: 'hidden' }}>
+  <div className="text-black text-xs mb-3 cihuy">
     {item.desc}
   </div>
 </div>
