@@ -8,25 +8,31 @@
   ],
   "contributor":[
     {
-      "desc" : "learn and practice skills that will enhance their careers",
+      "desc" : "sharing knowledge, experiences, and training",
       "img" : "/img/about/our_goals/share.gif",
       "title" : "Sharing"
     },
     {
-      "desc" : "learn and practice skills that will enhance their careers",
+      "desc" : "Facilitating collaboration to learn, grow, and evolve together",
       "img" : "/img/about/our_goals/social-media.gif",
       "title" : "Collaboration"
     },
     {
-      "desc" : "learn and practice skills that will enhance their careers",
+      "desc" : "Support for innovative ideas and projects",
       "img" : "/img/about/our_goals/idea.gif",
-      "title" : "New Oppurtunity"
+      "title" : "Innovation"
     },
     {
-      "desc" : "learn and practice skills that will enhance their careers",
+      "desc" : "Build career development and leverage opportunities in the global scale",
+      "img" : "/img/about/our_goals/handshake.gif",
+      "title" : "Networking"
+    },
+    {
+      "desc" : "Following updated latest trends and developments in technology",
       "img" : "/img/about/our_goals/rocket.gif " ,
-      "title" : "Upgrade"
+      "title" : "Update Tech"
     }
+
   ]
   
 }
