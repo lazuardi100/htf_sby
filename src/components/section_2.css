@@ -27,6 +27,33 @@
   overflow: hidden; /* Ensure rounded corners are visible */
 }
 
+@media (min-width: 1px) {
+  .cihuy {
+    min-height: 4em;
+    overflow: hidden;
+  }
+}
+
+/* For Tablets */
+@media (min-width: 600px) {
+  .cihuy {
+    min-height: 6em;
+    overflow: hidden;
+  }
+}
+@media (min-width: 1100px) {
+  .cihuy {
+    min-height: 4em;
+    overflow: hidden;
+  }
+}
+
+
+/* .cihuy {
+  min-height: 4.5em;
+  overflow: hidden;
+} */
+
 .goals{
   @apply md:w-1/4 w-full md:px-1.5 mb-4;
 }
