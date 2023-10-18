@@ -61,7 +61,7 @@ export default function Section2() {
             return (
               <div
                 key={index}
-                className="goals md:w-1/3 w-1/3 md:px-1.5 mb-4"
+                className="goals "
                 data-aos={fadeMode}
                 data-aos-duration="500"
                 data-aos-once="true"
@@ -86,6 +86,7 @@ export default function Section2() {
         <div className="w-full flex flex-row flex-wrap justify-center mt-10"></div>
 
       </div>
+      
     </div>
   );
 }
