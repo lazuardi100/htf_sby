@@ -30,7 +30,9 @@ export default function Section3(){
               data-aos-delay={index*250}
             >
               <div className="flex flex-row justify-center">
-                <img src={item.img} alt="placeholder" className="rounded-sm h-[103px] object-contain" />
+                <a href={item.link} target='_blank' rel="noreferrer">
+                  <img src={item.img} alt="placeholder" className="rounded-sm h-[103px] object-contain" />
+                </a>
               </div>
               
             </div>
