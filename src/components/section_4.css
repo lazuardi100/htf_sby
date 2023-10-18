@@ -16,9 +16,6 @@
   border-color: transparent transparent #ffffff transparent;
 }
 
-.custom-pr-120 {
-  padding-right: 120px;
-}
 .custom-margin-top-inherit {
   margin-top: inherit;
 }
@@ -26,16 +23,47 @@
   font-size: 4.375rem;
 }
 
+.custom-button {
+  cursor: pointer;
+  opacity: 1;
+  /* Set the initial opacity to 1 (fully opaque) */
+  transition: opacity 0.2s;
+  /* Apply the transition effect to opacity */
+}
+
+.custom-button:hover {
+  animation: fade-in 2s forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0.5;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
 /* For Tablets */
 @media (max-width: 991.98px) {
   .headCTA {
-    font-size: 3.75rem;
+    font-size: 2rem;
+  }
+  .div-head{
+    padding-right: 85px;
+    padding-left: 20px;
   }
 }
 
+/* dimension using pixel 5 */
 /* For Android Screens */
 @media only screen and (max-device-width: 480px) {
   .headCTA {
-    font-size: 3.125rem;
+    font-size: 1.5rem;
   }
+.div-head {
+  padding-right: 85px;
+  padding-left: 20px;
+}
+
 }
