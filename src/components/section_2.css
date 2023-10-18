@@ -69,15 +69,6 @@
   }
 }
 
-
-
-/* .cihuy {
-  min-height: 4.5em;
-  overflow: hidden;
-} */
-
-
-
 .event{
   @apply md:w-full px-1.5 w-full mb-4;
 }

@@ -29,7 +29,7 @@ export default function Section2() {
             return (
               <div
                 key={index}
-                className="event md:w-1/2 px-1.5 w-full mb-4"  // Adjust width for tablet screens
+                className="event"  // Adjust width for tablet screens
                 data-aos={fadeMode}
                 data-aos-duration="500"
                 data-aos-once="true"
