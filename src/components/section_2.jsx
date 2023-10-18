@@ -52,7 +52,7 @@ export default function Section2() {
           </h1>
         </div>
 
-        <div className="flex flex-row flex-wrap drop-shadow-lg justify-center  md-6 mt-8 p-5">
+        <div className="etc justify-center drop-shadow-lg md-6 mt-8 p-5">
           {data.contributor.map((item, index) => {
             let fadeMode = 'fade-up';
             if (index % 2 === 0) {
@@ -61,22 +61,22 @@ export default function Section2() {
             return (
               <div
                 key={index}
-                className="goals md:w-1/3 w-full md:px-1.5 mb-4"
+                className="goals md:w-1/3 w-1/3 md:px-1.5 mb-4"
                 data-aos={fadeMode}
                 data-aos-duration="500"
                 data-aos-once="true"
                 data-aos-delay={index * 250}
               >
                 <div className='bg-white p-4 rounded mx-3'>
-  <div className="flex">
-    <img src={item.img} className="resized-image" alt="placeholder" />
-    <h2 className="ml-2 font-bold text-base">{item.title}</h2>
-  </div>
-  <div className="flex mb-3"></div>
-  <div className="text-black text-xs mb-3 cihuy">
-    {item.desc}
-  </div>
-</div>
+                  <div className="flex">
+                    <img src={item.img} className="resized-image" alt="placeholder" />
+                    <h2 className="ml-2 font-bold text-base ">{item.title}</h2>
+                  </div>
+                  <div className="flex mb-3"></div>
+                  <div className="text-black text-xs mb-3 cihuy">
+                    {item.desc}
+                  </div>
+                </div>
 
               </div>
             );

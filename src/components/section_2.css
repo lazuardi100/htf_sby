@@ -32,6 +32,10 @@
     min-height: 4em;
     overflow: hidden;
   }
+  .etc{
+    @apply flex flex-row flex-wrap;
+  }
+  
 }
 
 /* For Tablets */
@@ -40,13 +44,21 @@
     min-height: 6em;
     overflow: hidden;
   }
+  .etc{
+    @apply grid grid-cols-3 place-items-center;
+  }
+  
 }
 @media (min-width: 1100px) {
   .cihuy {
     min-height: 4em;
     overflow: hidden;
   }
+  .etc{
+    @apply flex flex-row flex-wrap;
+  }
 }
+
 
 
 /* .cihuy {
