@@ -66,6 +66,16 @@
       "img": "/img/contributor/GDG-Surabaya.png",
       "title": "GDG Surabaya",
       "link": "https://gdg.community.dev/gdg-surabaya/"
+    },
+    {
+      "img": "/img/contributor/AndroidDevSby.png",
+      "title": "Android Dev Surabaya",
+      "link": "https://www.instagram.com/androiddevsurabaya/"
+    },
+    {
+      "img": "/img/contributor/GresikDev.png",
+      "title": "Gresik Dev",
+      "link": "https://www.instagram.com/gresikdev/"
     }
   ]
 }
