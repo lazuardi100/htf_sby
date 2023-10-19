@@ -32,6 +32,12 @@
     min-height: 4em;
     overflow: hidden;
   }
+  .etc{
+    @apply flex flex-row flex-wrap;
+  }
+  .goals{
+    @apply md:w-1/4 w-full md:px-1.5 mb-4;
+  }
 }
 
 /* For Tablets */
@@ -40,22 +46,27 @@
     min-height: 6em;
     overflow: hidden;
   }
+  .etc{
+    @apply grid grid-cols-3 place-items-center;
+  }
+
+  .goals{
+    @apply w-full md:px-1.5 mb-4;
+  }
+  
 }
 @media (min-width: 1100px) {
   .cihuy {
     min-height: 4em;
     overflow: hidden;
   }
-}
+  .etc{
+    @apply flex flex-row flex-wrap;
+  }
 
-
-/* .cihuy {
-  min-height: 4.5em;
-  overflow: hidden;
-} */
-
-.goals{
-  @apply md:w-1/4 w-full md:px-1.5 mb-4;
+  .goals{
+    @apply md:w-1/4 w-full md:px-1.5 mb-4;
+  }
 }
 
 .event{
