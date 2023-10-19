@@ -55,20 +55,20 @@ export default function Section4(){
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="w-48 h-48 rounded-full cursor-pointer button-join"
+                      className="w-48 h-48 rounded-full cursor-pointer button-join"
                       viewBox="0 0 100 100"
                     >
                       {isHovered ? (
                         <>
                           <circle cx="50" cy="50" r="45" fill="#ffffff" stroke="#000000" strokeWidth="1" />
-                          <text x="50%" y="50%" text-anchor="middle" font-size="0.5rem" dy=".3em" fill="#000000">
+                          <text x="50%" y="50%" textAnchor="middle" fontSize="0.5rem" dy=".3em" fill="#000000">
                             Join Now
                           </text>
                         </>
                       ) : (
                         <>
                           <circle cx="50" cy="50" r="45" fill="#000000" />
-                          <text x="50%" y="50%" text-anchor="middle"font-size="0.5rem" dy=".3em" fill="#ffffff">
+                          <text x="50%" y="50%" textAnchor="middle" fontSize="0.5rem" dy=".3em" fill="#ffffff">
                             Register here
                           </text>
                         </>
