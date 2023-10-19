@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;1,300&display=swap');
-
+html {
+  scroll-behavior: smooth;
+}
 body {
     font-family: 'JetBrains Mono', monospace;
   }

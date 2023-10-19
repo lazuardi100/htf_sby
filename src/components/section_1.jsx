@@ -63,7 +63,7 @@ export default function Section1() {
             </div>
             <div className="flex md:gap-10 gap-4 mt-10">
               <a
-                href="/"
+                href="#join-now"
                 data-aos="fade-left"
                 data-aos-duration="500"
                 data-aos-once="true"
