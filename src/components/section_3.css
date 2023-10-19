@@ -17,7 +17,7 @@
 }
 
 .card{
-  @apply flex flex-col md:flex-row items-center justify-center bg-white md:w-fit p-4 md:mx-4 mx-auto md:mt-0 mt-8 rounded md:h-fit w-[211px];
+  @apply flex flex-col md:flex-row items-center justify-center bg-white md:w-fit p-4 md:mx-4 mx-auto mt-8 rounded md:h-fit w-[211px];
 }
 
 .contributor_item{
