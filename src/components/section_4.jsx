@@ -5,6 +5,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import React, { useState } from 'react';
 
+import ReactGA from "react-ga4";
+
 export default function Section4(){
   AOS.init();
   const [isHovered, setIsHovered] = useState(false);
@@ -17,6 +19,15 @@ export default function Section4(){
     setIsHovered(false);
   };
 
+  const visitRegistration = () => {
+    ReactGA.event({
+      category: "Button",
+      action: "Click",
+      label: "Join Now",
+    });
+    window.open("https://tally.so/r/npo4oJ");
+  }
+
   
   return (
     <div id='join-now' className="section_4 bg-white px-4 md:px-0 py-16 md:py-36 border-t border-white">
@@ -25,7 +36,6 @@ export default function Section4(){
         {/* create white card with image in the left and in the right there is card title and body */}
         {data.calltoaction.map((item, index) => (
 
-          
           <div
             key={index}
             className="div-head flex flex-col md:flex-row items-center justify-center bg-white w-full md:w-[80%] mx-auto md:mt-0 mt-8 rounded md:h-72"
@@ -47,11 +57,11 @@ export default function Section4(){
             data-aos-duration="750"
             data-aos-once="false"
             >
-                  <a
+                  <button
                     className="custom-button p-0 border-none bg-none" // Apply the className here
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}
-                    href="https://tally.so/r/npo4oJ"
+                    onClick={visitRegistration}
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +84,7 @@ export default function Section4(){
                         </>
                       )}
                     </svg>
-                  </a>
+                  </button>
             </div>
           </div>
 
